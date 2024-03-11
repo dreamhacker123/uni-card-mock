@@ -171,6 +171,11 @@ input[type=checkbox]{
   height: 90px;
 }
 
+.spacer-gradient {
+  background: linear-gradient(90deg,#00dcc8 26.31%,#00dcc8 61.59%,#fff061 74.32%,#fff061 85.31%);
+  transform: matrix(1,0,0,-1,0,0);
+}
+
 .video-bg{
     width: 100vw;
     height: 100vh;
