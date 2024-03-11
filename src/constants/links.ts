@@ -1,0 +1,1 @@
+export const PAY_CHEK_LINK:string = "https://paychek.uni.club/" as const;

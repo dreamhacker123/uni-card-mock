@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --uni-text-gradient-green:#8fffef;
+  --uni-text-gradient-yellow:#f9f490;
+  --chakra-space:0.5rem;
+}
+
+.App {
+  text-align: center;
+  font-family: Matter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0px 94.6px;
+  font-weight: 500;
+  margin: 0;
+  
+}
+
+
+
+.mainText{
+  color: #000000;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.primaryText{
+  font-size: 40px;
+  color: #000000;
+  word-wrap: break-word;
+  font-weight: 700;
+}
+
+input[type=checkbox]{
+  accent-color: white;
+}
+
+.checkboxLabel{
+  color: #000;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.blackBox{
+  margin-right: -94.6px;
+  margin-left: -94.6px;
+  background-color: #000;
+  padding: 10px 94.6px 80px 94.6px;
+}
+
+@keyframes fadeIn { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInBottom { animation: fadeInBottom 1000ms; }
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+.stickyFooter{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: #f5f5f5;
+  justify-content: space-around;
+  animation: fadeIn 800ms;
+
+}
+
+.bg-uni-yellow{
+  background-color: #FDEF78;
+}
+
+.text-uni-green{
+  color: #5AD6C4;
+}
+
+.textBox3{
+  margin-right: -94.6px;
+  margin-left: -94.6px;
+}
+
+.gradientTextDark {
+  background-image: linear-gradient(90deg,var(--uni-text-gradient-green) 25%,var(--uni-text-gradient-yellow));
+  background: linear-gradient(90deg,var(--uni-text-gradient-green) 25%,var(--uni-text-gradient-yellow));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.chakra-icon{
+  padding-right: 3px;
+  display: flex;
+}
+
+.uniGradientBg{
+  background-image: linear-gradient(158deg,#5ad6c4,#fdef78);
+}
+
+.downloadIcons{
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: currentColor;
+  vertical-align: middle;
+  margin-right: var(--chakra-space-2);
+}
+
+.text-gray-4 {
+  --tw-text-opacity: 1;
+  color: rgba(142,147,147,var(--tw-text-opacity));
+}
+
+.primaryText>em{
+  color: #9EA7AE;
+  font-weight: 500;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.bg-black-12 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(18,18,18,var(--tw-bg-opacity));
+}
+
+.Logo_logo_white__zowGB {
+  width: 120px;
+  height: 90px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.bg-black-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(34,34,34,var(--tw-bg-opacity));
+}
+
+.text-grey-dark {
+  --tw-text-opacity: 1;
+  color: rgba(141,141,149,var(--tw-text-opacity));
+}
+
+.logo{
+  width: 120px;
+  height: 90px;
+}
+
+.video-bg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
