@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uni-card-mock/static/css/main.f817f6dd.css",
+    "main.css": "/uni-card-mock/static/css/main.5d647d9d.css",
     "main.js": "/uni-card-mock/static/js/main.1921f647.js",
     "static/js/15.4dd6a657.chunk.js": "/uni-card-mock/static/js/15.4dd6a657.chunk.js",
     "static/js/453.a43f841e.chunk.js": "/uni-card-mock/static/js/453.a43f841e.chunk.js",
@@ -19,14 +19,14 @@
     "static/media/antivirus_bubble.webp": "/uni-card-mock/static/media/antivirus_bubble.765bbf6df221404e7d62.webp",
     "index.html": "/uni-card-mock/index.html",
     "static/media/down_arrow.svg": "/uni-card-mock/static/media/down_arrow.38cbd8d85f15e52b0903aac5aa46c1fc.svg",
-    "main.f817f6dd.css.map": "/uni-card-mock/static/css/main.f817f6dd.css.map",
+    "main.5d647d9d.css.map": "/uni-card-mock/static/css/main.5d647d9d.css.map",
     "main.1921f647.js.map": "/uni-card-mock/static/js/main.1921f647.js.map",
     "15.4dd6a657.chunk.js.map": "/uni-card-mock/static/js/15.4dd6a657.chunk.js.map",
     "453.a43f841e.chunk.js.map": "/uni-card-mock/static/js/453.a43f841e.chunk.js.map",
     "244.cd346ec6.chunk.js.map": "/uni-card-mock/static/js/244.cd346ec6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f817f6dd.css",
+    "static/css/main.5d647d9d.css",
     "static/js/main.1921f647.js"
   ]
 }
