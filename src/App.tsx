@@ -8,7 +8,7 @@ import { PageRoutes } from './pages/PageRoutes';
 const App = ():JSX.Element=> {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <PageRoutes />
       </BrowserRouter>
     </div>
